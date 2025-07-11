@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-model = pickle.load(open('Abhishek.mdl','rb'))
+model = pickle.load(open('Abhishek.pkl','rb'))
 st.title("Customer Segmentation by Abhishek")
 
 age = float(st.text_input("Enter Age: ","18"))
